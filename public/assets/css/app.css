@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+/* Library css normalization  */
+.card {
+    padding: 24px 50px;
+}
+.table {
+    margin-bottom: 0;
+}
+
+/* App CSS implementation  */
+.table thead tr {
+    background-color: #62bc4626;
+    color: #2f953f;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.button {
+    border: none !important;
+    padding: 12px 24px !important;
+    border-radius: 100px;
+    transition: all 0.4s;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button--primary {
+    background-color: #82bf8c;
+    color: black;
+}
+
+.button--primary:hover {
+    background-color: #6db579;
+    color: black;
+}

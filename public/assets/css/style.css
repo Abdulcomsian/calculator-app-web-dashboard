@@ -1,0 +1,336 @@
+select{
+    z-index: 99999999;
+}
+.updateBtn{
+    width: 100% !important;
+    max-width: 50% !important;
+    margin: auto !important;
+    margin-top: 50px !important;
+}
+.aside.aside-dark{
+    background-color: #fff !important;
+}
+.aside-dark .menu .menu-item .menu-link .menu-title {
+    color: #181c32 !important;
+    font-weight: 500;
+}
+.aside-dark .menu .menu-item .menu-link.active {
+    background-color: transparent !important;
+
+    border-right: 6px solid #2e953e;
+}
+.aside-dark .menu .menu-item .menu-link.active span{
+    color: #2e953e !important;
+    font-weight: 600;
+}
+.aside-dark .menu .menu-item .menu-link.active .menu-icon .svg-icon svg [fill]:not(.permanent):not(g) {
+    fill: #50cd89 !important;
+}
+
+element.style {
+}
+.aside.aside-dark .aside-logo {
+    background-color: #181824;
+}
+.aside.aside-dark .aside-logo{
+    background-color: #fff !important;
+    border-bottom: 2px solid #eff2f5;
+    padding: 20px;
+}
+.aside.aside-dark .aside-toggle svg [fill]:not(.permanent):not(g) {
+    fill: #2e953e;
+}
+.aside-dark .menu .menu-item .menu-link:hover:not(.disabled):not(.active), .aside-dark .menu .menu-item.hover>.menu-link:not(.disabled):not(.active) {
+    transition: color .2s ease,background-color .2s ease;
+    background-color: #fff !important;
+    color: #fff;
+}
+.aside-dark .menu .menu-item .menu-link:hover:not(.disabled):not(.active) .menu-icon .svg-icon svg [fill]:not(.permanent):not(g), .aside-dark .menu .menu-item.hover>.menu-link:not(.disabled):not(.active) .menu-icon .svg-icon svg [fill]:not(.permanent):not(g),
+.btn.btn-light-primary .svg-icon svg [fill]:not(.permanent):not(g),
+.btn-check:active+.btn.btn-active-color-primary .svg-icon svg [fill]:not(.permanent):not(g), .btn-check:checked+.btn.btn-active-color-primary .svg-icon svg [fill]:not(.permanent):not(g), .btn.btn-active-color-primary.active .svg-icon svg [fill]:not(.permanent):not(g), .btn.btn-active-color-primary.show .svg-icon svg [fill]:not(.permanent):not(g), .btn.btn-active-color-primary:active:not(.btn-active) .svg-icon svg [fill]:not(.permanent):not(g), .btn.btn-active-color-primary:focus:not(.btn-active) .svg-icon svg [fill]:not(.permanent):not(g), .btn.btn-active-color-primary:hover:not(.btn-active) .svg-icon svg [fill]:not(.permanent):not(g), .show>.btn.btn-active-color-primary .svg-icon svg [fill]:not(.permanent):not(g),
+.btn-check:active+.btn.btn-active-color-primary .svg-icon svg [fill]:not(.permanent):not(g), .btn-check:checked+.btn.btn-active-color-primary .svg-icon svg [fill]:not(.permanent):not(g), .btn.btn-active-color-primary.active .svg-icon svg [fill]:not(.permanent):not(g), .btn.btn-active-color-primary.show .svg-icon svg [fill]:not(.permanent):not(g), .btn.btn-active-color-primary:active:not(.btn-active) .svg-icon svg [fill]:not(.permanent):not(g), .btn.btn-active-color-primary:focus:not(.btn-active) .svg-icon svg [fill]:not(.permanent):not(g), .btn.btn-active-color-primary:hover:not(.btn-active) .svg-icon svg [fill]:not(.permanent):not(g), .show>.btn.btn-active-color-primary .svg-icon svg [fill]:not(.permanent):not(g),
+.btn-check:active+.btn.btn-active-light-primary .svg-icon svg [fill]:not(.permanent):not(g), .btn-check:checked+.btn.btn-active-light-primary .svg-icon svg [fill]:not(.permanent):not(g), .btn.btn-active-light-primary.active .svg-icon svg [fill]:not(.permanent):not(g), .btn.btn-active-light-primary.show .svg-icon svg [fill]:not(.permanent):not(g), .btn.btn-active-light-primary:active:not(.btn-active) .svg-icon svg [fill]:not(.permanent):not(g), .btn.btn-active-light-primary:focus:not(.btn-active) .svg-icon svg [fill]:not(.permanent):not(g), .btn.btn-active-light-primary:hover:not(.btn-active) .svg-icon svg [fill]:not(.permanent):not(g), .show>.btn.btn-active-light-primary .svg-icon svg [fill]:not(.permanent):not(g) {
+    fill: #2e953e !important;
+}
+#kt_post .bg-success,
+.btn-check:active+.btn.btn-light-primary, .btn-check:checked+.btn.btn-light-primary, .btn.btn-light-primary.active, .btn.btn-light-primary.show, .btn.btn-light-primary:active:not(.btn-active), .btn.btn-light-primary:focus:not(.btn-active), .btn.btn-light-primary:hover:not(.btn-active), .show>.btn.btn-light-primary,
+.btn-check:active+.btn.btn-primary, .btn-check:checked+.btn.btn-primary, .btn.btn-primary.active, .btn.btn-primary.show, .btn.btn-primary:active:not(.btn-active), .btn.btn-primary:focus:not(.btn-active), .btn.btn-primary:hover:not(.btn-active), .show>.btn.btn-primary {
+    background-color: #2e953e!important;
+}
+
+.menu-state-title-primary .menu-item .menu-link.active .menu-title,
+.text-hover-primary:hover {
+    color: #2e953e !important;
+}
+.btn.btn-primary {
+    color: #fff;
+    border-color: #2e953e !important;
+    background-color: #2e953e !important;
+}
+.btn.btn-light-primary {
+    color: #2e953e;
+    border-color: #ecf8ff;
+    background-color: #f7f9fb;
+}
+
+.scrolltop{
+    background-color: #2e953e !important;
+}
+@media (max-width: 992px)
+{
+    #progressbar li:before{
+        width: 25px !important;
+        height: 25px !important;
+        margin: 13px auto 10px auto !important;
+    }
+    #progressbar li strong{
+        font-size: 8px;
+    }
+}
+@media (min-width: 992px)
+{
+    .aside .aside-logo {
+        height: 100px !important;
+
+    }
+}
+#kt_content_container{
+    margin-bottom: 30px;
+}
+#kt_invoice_form button.updateBtn{
+    margin-top: 0px !important;
+    display: block;
+}
+#datatable_wrapper{
+    overflow: scroll;
+}
+.dt-buttons button:nth-child(1),
+.dt-buttons button:nth-child(4),
+.dataTables_info{
+    display: none;
+}
+#DataTables_Table_0_filter{
+    position: absolute;
+    top: -52px;
+}
+.dataTables_length{
+    position: absolute;
+    bottom: 0;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+    background: #009ef7 !important;
+    border: none;
+    border-radius: .475rem;
+    color: #fff !important;
+}
+.dt-buttons{
+    position: absolute !important;
+    top: -54px;
+    right: 0px;
+}
+
+.dt-buttons button {
+    border: 0 !important;
+    padding: calc(.75rem + 1px) calc(1.5rem + 1px) !important;
+    color: #009ef7 !important;
+    border-color: #ecf8ff !important;
+    background-color: #ecf8ff !important;
+    background: #ecf8ff !important;
+    font-weight: 700 !important;
+    font-size: 1.1rem !important;
+    border-radius: .475rem !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+    color: #fff !important;
+    border: 1px solid #009ef7;
+}
+.sweet-alert .confirm{
+    background-color: #2e953e !important;
+    color: #fff !important;
+}
+.viewPayment .card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    padding: 20px;
+}
+.viewPayment .card .panel-heading{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.viewPayment .card .panel-body p{
+    padding: 5px 0px;
+}
+.viewPayment{
+    background: #f3f6f9;
+}
+.packagesDiv .dt-buttons {
+    position: absolute !important;
+    top: -44px !important;
+    right: 240px !important;
+}
+.viewPayment{
+    padding: 30px 0px;
+}
+.attachmentTable{
+    width: 100%;
+}
+.addAttachmentBtn{
+    color: #fff;
+    border-color: #2e953e !important;
+    background-color: #2e953e !important;
+    border: 0;
+    padding: calc(.75rem + 1px) calc(1.5rem + 1px);
+    position:absolute;
+    right: 10px;
+    border-radius: .475rem;
+}
+.formSantionButton button{
+    color: #fff;
+    border-color: #2e953e !important;
+    background-color: #2e953e !important;
+    border: 0;
+    padding: calc(.75rem + 1px) calc(1.5rem + 1px);
+    border-radius: .475rem;
+    width: 20%;
+    margin: 0px 10px;
+}
+.formSantionButton{
+    justify-content: flex-end;
+    flex-direction: row !important;
+}
+.attachmentTable{
+    border-collapse: collapse;
+}
+table.attachmentTable, table.attachmentTable td, table.attachmentTable th {
+    border: 1px solid #d7d8d9;
+    padding: 10px;
+    border-radius: 8px;
+  }
+.attachmentTable tr td button{
+    background-color: transparent;
+    border: none;
+}
+
+.panel-body textarea{
+    width: 100%;
+    border: 1px solid #d7d8d9;
+    padding: 10px;
+    border-radius: 8px;
+}
+@media only screen and (max-width: 768px) {
+    div.dt-buttons,.packagesDiv .dt-buttons {
+      position: initial !important;
+      top: initial !important;
+      right: initial !important;
+    }
+  }
+  .btn i{
+      font-size: 16px;
+  }
+  .svg-icon.svg-icon-3 svg {
+    height: 20px !important;
+    width: 20px !important;
+}
+.nextBtn,
+.nextBtn:hover{
+    float: right;
+    margin: 0px 50px;
+    background: #2e953e;
+    padding: 10px 60px;
+    font-size: 18px;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+}
+.accounting,
+.market-share,
+.board-of-diector{
+    display: none;
+}
+
+
+#progressbar {
+    overflow: hidden;
+    color: lightgrey;
+    padding: 50px 0px 0px;
+}
+
+#progressbar .active {
+    color: #000000
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 12px;
+    width: 12.5%;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+#progressbar #account:before {
+    font-family: FontAwesome;
+    content: "\f023"
+}
+
+#progressbar #personal:before {
+    font-family: FontAwesome;
+    content: "\f007"
+}
+
+#progressbar #payment:before {
+    font-family: FontAwesome;
+    content: "\f09d"
+}
+
+#progressbar #confirm:before {
+    font-family: FontAwesome;
+    content: "\f00c"
+}
+#progressbar li:before {
+    content: '';
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: block;
+    font-size: 18px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px;
+    z-index: 999999999;
+    position: relative;
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: 2
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #2e953e
+}
+#progressbar li span{
+    position: absolute;
+    top: 11px;
+    left: 46%;
+    color: #fff;
+    z-index: 999999999999;
+    font-size: 18px;
+    font-weight: 700;
+}
