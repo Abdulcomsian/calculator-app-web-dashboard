@@ -41,6 +41,7 @@ class SocialiteController extends Controller
             $token = $user->createToken('auth_token')->plainTextToken;
 
             return response()->json([
+                "status" => "success",
                 'message' => 'User logged in successfully',
                 'access_token' => $token,
                 'token_type' => 'Bearer',
@@ -48,6 +49,7 @@ class SocialiteController extends Controller
             ], 200);
         } catch (Exception $e) {
             return response()->json([
+                "status" => "error",
                 'message' => 'Failed to login with Google',
                 'error' => $e->getMessage(),
             ], 500);

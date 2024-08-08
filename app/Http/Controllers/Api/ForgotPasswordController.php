@@ -41,7 +41,6 @@ class ForgotPasswordController extends Controller
         $user->save();
 
         if (filter_var($input, FILTER_VALIDATE_EMAIL)) {
-            // Send email
             Mail::to($user->email)->send(new ResetPasswordMail($resetCode));
         } else {
             // Send SMS (implement your SMS sending logic here)
@@ -49,9 +48,10 @@ class ForgotPasswordController extends Controller
         }
 
         return response()->json([
+            "status" => "success",
             'message' => 'Reset code sent successfully',
             'Code' => $resetCode,
-            'user_data' => $user
+            'email' => $input
         ], 200);
     }
 
@@ -84,6 +84,7 @@ class ForgotPasswordController extends Controller
         }
 
         return response()->json([
+            "status" => "success",
             'message' => 'Reset code verified successfully',
             'user_id' => $user->id,
         ], 200);
@@ -110,6 +111,7 @@ class ForgotPasswordController extends Controller
         $user->save();
 
         return response()->json([
+            "status" => "success",
             'message' => 'Password reset successfully',
         ], 200);
     }

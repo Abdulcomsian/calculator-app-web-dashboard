@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Http\Controllers\Controller;
 use App\User;
 use Exception;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 
 class UserAuthController extends Controller
@@ -28,11 +29,13 @@ class UserAuthController extends Controller
             $user->assignRole('user');
 
             return response()->json([
+                "status" => "success",
                 'message' => 'User Created',
                 'data' => $user,
             ], 201);
         } catch (Exception $e) {
             return response()->json([
+                "status" => "error",
                 'message' => 'User registration failed',
                 'error' => $e->getMessage(),
             ], 500);
@@ -58,6 +61,7 @@ class UserAuthController extends Controller
             $token = $user->createToken($user->name . '-AuthToken')->plainTextToken;
 
             return response()->json([
+                "status" => "success",
                 'data' => $user,
                 'access_token' => $token,
                 'token_type' => 'Bearer',
@@ -65,6 +69,7 @@ class UserAuthController extends Controller
 
         } catch (Exception $e) {
             return response()->json([
+                "status" => "error",
                 'message' => 'Login failed',
                 'error' => $e->getMessage(),
             ], 500);
@@ -73,9 +78,11 @@ class UserAuthController extends Controller
 
     public function logout()
     {
-        auth()->user()->tokens()->delete();
+        $user = User::findOrFail(Auth::user()->id);
+        $user->tokens()->delete();
 
         return response()->json([
+            "status" => "success",
             "message" => "logged out"
         ]);
     }

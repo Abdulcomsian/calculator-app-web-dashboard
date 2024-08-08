@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\Models\Contact;
 use App\Models\Country;
 use App\Models\Subscription;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
@@ -20,6 +21,7 @@ class User extends Authenticatable implements MustVerifyEmail
         'email',
         'email_verified_at',
         'password',
+        'profile_picture',
         'remember_token',
         'password_reset_code'
     ];
@@ -49,5 +51,9 @@ class User extends Authenticatable implements MustVerifyEmail
 
     public function subscription(){
         return $this->hasOne(Subscription::class);
+    }
+
+    public function contacts(){
+        return $this->hasMany(Contact::class);
     }
 }
