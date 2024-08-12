@@ -8,6 +8,7 @@ use GuzzleHttp\Exception\RequestException;
 use App\Http\Controllers\Api\MapController;
 use App\Http\Controllers\Api\ContactController;
 use App\Http\Controllers\Api\ProfileController;
+use App\Http\Controllers\Api\WeatherController;
 use App\Http\Controllers\Api\CategoryController;
 use App\Http\Controllers\Api\UserAuthController;
 use App\Http\Controllers\Api\SocialiteController;
@@ -93,4 +94,7 @@ Route::middleware('auth:sanctum')->group(function () {
 
     // Map
     // Route::post('get-route', [MapController::class, 'getRoute']);
+
+    // Weather
+    Route::post('/weather', [WeatherController::class, 'getWeather']);
 });
